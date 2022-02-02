@@ -1,0 +1,22 @@
+<%- include('partials/header') %>
+
+  <div class="jumbotron text-center">
+    <div class="container">
+      <div class="image-2"></div>
+      <h1 class="display-4">Sit back and relax! We see all the complaints...</h1>
+
+      <% usersWithcomplains.forEach(function(user){ %>
+        <p class="secret-text">
+          <%=user.secret%>
+        </p>
+        <% }) %>
+
+
+
+          <hr>
+          <a class="btn btn-light btn-lg" href="/logout" role="button">Log Out</a>
+          <a class="btn btn-dark btn-lg" href="/submit" role="button">Submit a Complain</a>
+    </div>
+  </div>
+
+  <%- include('partials/footer') %>

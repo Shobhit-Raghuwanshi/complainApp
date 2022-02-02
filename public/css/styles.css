@@ -1,0 +1,41 @@
+body {
+  background-color: #e8ecef;
+}
+
+.centered {
+  padding-top: 200px;
+  text-align: center;
+}
+
+.secret-text {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #000;
+}
+.image-2 {
+  margin-top: -20px;
+  margin-left: 36%;
+  background-image: url(../images/complain.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+  padding: 0%;
+  align-self: center;
+  width: 20vw;
+  height: 25vh;
+}
+.image {
+  margin-top: -20px;
+  margin-left: 36%;
+  background-image: url(../images/complain-page.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+  padding: 0%;
+  align-self: center;
+  width: 20vw;
+  height: 25vh;
+}
